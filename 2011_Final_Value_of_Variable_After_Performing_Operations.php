@@ -29,3 +29,13 @@ class Solution {
         return $x;
     }
 }
+
+//Another method
+    function finalValueAfterOperationsSecond($operations) {
+        $ans=0;
+        foreach($operations as $x){
+            if($x=='++X' || $x=='X++')$ans++;
+            elseif($x=='--X' || $x=='X--') $ans--;
+        }
+        return $ans;
+    }

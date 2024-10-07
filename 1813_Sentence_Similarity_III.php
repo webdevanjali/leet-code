@@ -32,3 +32,4 @@ class Solution {
         return $i + $j >= min($n1, $n2);
     }
 }
+

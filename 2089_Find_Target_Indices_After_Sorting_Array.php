@@ -6,6 +6,7 @@ class Solution {
      * @param Integer $target
      * @return Integer[]
      */
+
     function targetIndices($nums, $target) {
         sort($nums);
         $list=[];
@@ -16,3 +17,4 @@ class Solution {
         return $list;
     }
 }
+
